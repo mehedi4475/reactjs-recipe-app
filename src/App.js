@@ -15,6 +15,7 @@ const App = () => {
     const response = await fetch(`http://209.97.171.59:8080/en/ads/`);
     const data = await response.json();    
     setRecipes(data);
+    
     console.log(data);
   }
 
