@@ -12,7 +12,7 @@ const App = () => {
 
   const getRecipes = async() => {
     
-    const response = await fetch(`http://127.0.0.1:8080/en/ads/`);
+    const response = await fetch(`http://localhost:8080/en/ads/`);
     const data = await response.json();    
     setRecipes(data);
 
