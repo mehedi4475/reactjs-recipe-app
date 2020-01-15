@@ -25,7 +25,7 @@ const App = () => {
       {recipes.map(rec => (
         // console.log(rec.recipe.label)
         <Recipe
-        key={rec.title}
+        key={rec._id}
         title={rec.title}
         body={rec.body}
         />
